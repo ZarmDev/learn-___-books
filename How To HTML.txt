@@ -1,0 +1,626 @@
+KEY:
+CAPITILIZED THINGS ARE THE TAGS! (the main ones)
+DONT ACTUALLY WRITE THE TAGS IN CAPS!
+
+<!DOCTYPE html>-this tag is correctly spelled right
+now and this should ALWAYS be here at the first
+line.
+
+<HTML>-this tag goes at the beginning of the
+program and the WAY back and I mean the end and
+at the end it should be </html> not <html>.
+Also, you can add a "lang" tag:
+<html lang="en">
+Above, lang is lanugage and ours is english you
+can also do spanish and french and others, 
+es=spanish fr="french"
+
+<HEAD>-this tag is all the information about
+the program and the data, put the head after the
+beginning <html> and end it after you put all
+the head tags with </head>.
+
+<BODY>-this tag is what you see on the webpage,
+you store all the text and sources, it should
+be after the </head> and should end after you
+put all the things inside the opening and closing
+<head> tag.
+
+<H1>-this tag places text on the screen, here 
+is how it functions:
+<h1>A heading</h1>
+also there are 6 headings, <h1> <h2> <h3>
+<h4> <h5> <h6>
+
+<P>-this tag is like the <h1> tag accept it makes
+a paragraph, not a heading.
+
+<SPAN>-this tag sends a signal to another file,
+it will be inside a <h1> or <p> (learn CSS to know
+more about <span>) heres an example of <span>:
+<p>Bake the <span class="ingredient">Cookies</span>
+another way is to <p><span>I was selected!</span>
+and I wasn't :(</p> this seperates I was selected
+from the rest of the code.
+
+<DIV>-this tag is like span accept it targets a
+group of scripts. Heres an example:
+<div>
+<p>Im inside a div!</p>
+</div>
+This will mark this up to another file and 
+(learn CSS to know more) the ID is giving it an
+ID for another file to beable to identify it.
+
+<EM>-the "em" tag means emphasize which will make 
+a text emphasized, heres an example:
+<p>White Rhinos are <em>Endangered!</em> 
+
+<STRONG>-strong is what it says it is, it is like
+the <em> tag accept it will bold a text.
+
+<S>/<DEL>-This is to strike the letters.
+
+<BR>-br means break which seperates a paragraph,
+imagine this:this is a looseleaf paper so there
+are multiple lines, theres a text on the first line
+that says "Theres a video link down below!"
+and then you want to make the video below but
+it goes next to the text on line 1, but you want it
+to goe down, heres how:
+<p>Theres a video link down below</p> <br>
+(Video)
+
+<OL>-ol stands for ordered list it functions like a
+<div> tag, heres an example:
+<ol>
+<li>li is list item</li>
+</ol>
+Also ol is ORDERED list so it will be in order and
+it is numbered (1.list item 2. list item)
+
+<UL>-Unordered lists are bulleted and are exactly
+the same with <ol> example:
+<ul>
+<li>List item (this will be bulleted)</li>
+</ul>
+
+<IMG>-This tag is to put images, this is how you
+do:
+<img src="image-location.jpg"/>
+If you want to add a text that will show if it
+can't load the image do this:
+<img src="image-location.jpg" alt="A image"/>
+
+<VIDEO>-this tag shows a video on the screen, heres
+how:
+<video src="myVideo.mp4" width="320" height="240"
+controls> Video not supported</video>
+the src is the file
+width and heigth is how big is it
+controls gives the person who views it control over
+the video (pause, play, stop) this is bad for 
+making ads but good for youtube videos or trailor.
+
+<TITLE>-title is what you see at the top-left,
+how to do it:
+<head>
+<title>The Title</title>
+</head>
+
+INDENTATION-this is not a tag, this is just a note
+saying that you should follow the W3C standerds.
+
+<A>-this tag links the viewer to a diffrent page,
+there are multiple types, heres the first one (this
+isn't ordered):
+1:
+<a href="google.com">This is the text</a>
+Above, google.com is the target, and the "This the
+text" is the text where you click and go to the
+website
+2:
+<a href="google.com" target="_blank">TEXT</a>
+the target="_blank" makes the website open in 
+another window.
+3:
+<a href="./file.html">File</a>
+Above, this is link to a file, this is useful 
+because if it's something like mediafire (a file
+downloader) whenever someone makes a new file to
+download, mediafire could make a file so if the
+file exists, it will goe there but if it was 
+deleted by that someone the file will be 
+deleted so it can't goe there.
+4.
+<a href="google.com" target="_blank"><img src=
+"image-location.jpg" alt="A orange!"/></a>
+Above, this is a image that when you click on
+will link you to a diffrent website.
+5.
+<a href="#top">The top</a>
+This uses an ID, is placed somewhere inside and 
+then the <a> links them to somewhere in the 
+website.
+Here, it is linking it to the top of the page.
+6.
+<a href="mailto:sample@example.com">John Doe</a>
+(w3schools.com):
+<img src="picture.jpg"> 	
+picture.jpg is located in the same folder as the 
+current page
+<img src="images/picture.jpg"> 	
+picture.jpg is located in the images folder in the 
+current folder
+<img src="/images/picture.jpg"> 	
+picture.jpg is located in the images folder at the 
+root of the current web
+<img src="../picture.jpg"> 	
+picture.jpg is located in the folder one level up 
+from the current folder
+
+<!-- -->-this is a comment that the browser wont
+display but it is useful because you can make 
+diffrent sections, parts (test code, favorite).
+Here is how:
+<!-- This is a comment -->
+
+<TABLE>-this tag creates a table, a table looks
+like a list, you can search it up.
+Here is how you make a table:
+<table>
+</table>
+
+<TR>-this tag is to make table rows, this is how:
+<table>
+<tr>
+</tr>
+</table>
+Above, there is a table.
+Then there is a <tr>, the table row.
+
+<TD>-this tag stands for table data, <td> is used
+to put data in <tr> (table rows) <tr> is like <li>
+heres an example:
+<table>
+<tr>
+<td>Books</td>
+<td>Toys</td>
+</tr>
+</table>
+
+<TH>-this tag stands for table heading, it it used
+in things like maybe registering for classes,
+heres an example:
+<table>
+<tr>
+<th>Tempature:</th>
+<th scope="col">50</th>
+</tr>
+</table>
+Above, the scope is either a col (column) or row.
+
+<table border="#">-this tag is the table border,
+imagine this: 
+theres a table, theres a heading that says 
+"Paintings" when you look at it, the only thing
+you see is paintings it doesnt have a box around
+it or anything to make it pretty, thats what table
+border is for. 
+Heres an example:
+<table border="1">
+<tr>
+<td>Example</td>
+</tr>
+</table>
+
+<td colspan="#">Companys</td>-this tag is hard to
+explain but heres an example:
+<table>
+<tr>
+<th>Wednesdays</th>
+<th>Fridays</th>
+<th>Saturday And Sunday</th>
+</tr>
+<tr>
+<td colspan="2">Out Of Town</td>
+<td>Back in town</td>
+</tr>
+Above, the colspan="2" so it spans Monday and 
+Tuesday, using the value 2 (two columns) so the
+data back in town will only appear under the 
+Saturday and Sunday.
+
+<td rowspan="#">Work Time</td>-this tag is hard to
+explain but it works like this:
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+    <th>Savings for holiday!</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+    <td rowspan="2">$50</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+Above, the rowspan is spanning the "Savings for 
+hoilday" because rowspan=2 so it's looking at 
+the headings and after you do 2 savings for the 
+hoilday is left.
+
+<THEAD>-this tag is a head, it's just like the
+<body> and <head> <thead> is T-head table head.
+Heres an example of how it works:
+<table>
+<thead>
+<th>Table headings go in <thead> (not always)</th>
+</thead>
+</table>
+Above, <thead> is just where the headings go.
+
+<TBODY>-this tag is table body, it has all the
+<tr> (table row) and <td> (table data) and 
+soemetimes <th>
+Heres an example:
+<table>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+
+<TFOOT>-this tag is used to make the total.
+An example:
+<table>
+<thead>
+<th>Portraits:</th>
+</thead>
+<tbody>
+<tr>
+<td>99 cents each</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>Total:99 cents</td>
+</tr>
+</tfoot>
+</table>
+
+<a href="#serif"></a>-Will link to the sertain part
+
+<a href="#top"></a>-Will link to top
+
+<q>-quote:
+<p>My goal: <q>Learn to code</q></p>
+
+<blockquote>-Quote something from a diffrent site
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+
+<iframe>-Display another website inside a diffrent
+website:
+<iframe src="url"></iframe>
+
+<base>-base defines the target and can look for 
+images:
+<base href="https://www.w3schools.com/images/" 
+target="_blank">
+<img src="html5.gif">
+<p>Above is a picture of html5 logo</p>
+
+<a href="https://google.com">Google</a>
+<p>Because target="_blank" now google.com will
+be showed in a diffrent tab</p>
+
+<meta>-set data:
+1.<meta charset="UTF-8">
+(defines character set used)
+2.<meta name="description" 
+content="Free tutorials">
+(defines description of website)
+3.<meta name="keywords" content="HTML, CSS, 
+Javascript">
+(defines keywords for search engine)
+4.<meta name="author" content="John Doe">
+(defines author)
+5.<meta http-equiv="refresh" content="30">
+(refresh document every 30 seconds)
+6.<meta name="viewport" content="width=device-width
+", initial-scale=1.0">
+(resizes for mobile)
+
+Layout:
+<header>-Defines a header for a document or section
+<nav>-Defines a container for navigation links
+<section>-Defines a section in a document
+<article>-Defines an independent self-containted
+article
+<aside>-Defines contant aside (to the right)
+like a sidebar
+<footer>-Defines a footer for a document or a 
+section
+<details>-Defines additional details
+<summary>-Defines a heading for the <details> 
+elements
+
+Computer Code:
+<kbd>-represents user input or keyboard input
+<samp>-represents output from a program
+<code>-represents computer code
+<pre>-spaces out the <code> text
+<var>-represents variables (math)
+
+HTML FORMS:
+Input types:
+(GO to form elements or input attributes to see
+how to edit these inputs!)
+<input type="button" onclick="alert('This is js
+code')">-Shows a button
+<input type="checkbox">-Shows a checkbox
+<input type="color">-Shows a colorbox
+<input type="date" max="197
+9-12-31" min="2000-01-02">-Shows a date selecter
+<input type="datetime-local">-Shows a data input 
+and a time input
+<input type="email">-Shows a text box thats for a
+email
+<input type="file">-Shows a browse button where 
+you can choose a file
+<input type="hidden">-Is a text box
+<input type="image">-Is a image that sends the X 
+and Y coordinates of the click
+<input type="month">-Shows a month and year picker
+<input type="number" min="1" max="5">-Shows a 
+number picker
+<input type="password">-Shows a text box that makes
+your input encrypted in circles
+<input type="radio">-Shows a circle that you can
+select
+<input type="range" min="0" max="20">-shows a 
+slider that you can move and choose a number
+<input type="reset">-Shows a reset button that 
+resets all form data to the default value
+<input type="search">-Shows a text box (the same as
+a text box but for search fields)
+<input type="submit">-Sumbits the form data in a
+sumbit button
+<input type="tel">-Shows a textbox that has a 
+certain pattern:
+<input type="tel" pattern="[0-9]{3}-[0-9]{3}-
+[0-9]{4}"> (0-9 means the min and max and {3}
+means the amount of numbers you can put)
+example:
+123-456-7890
+<input type="text">-Shows a text box that you can
+type in
+<input type="time">-Shows a text box where you 
+choose time and PM or AM
+<input type="url">-Shows a text box (same as text
+box just your supposed put a website)
+<input type="week">-Shows a text box where you 
+choose the week number and year
+
+
+Input Attributes:
+(Input attributes are the extra parts of a line of
+code, for example input type is a attribute.)
+Value-Is the default of a input field
+<input type="text" value="Default">
+(shows a text box that has the text "Default" in
+it)
+Name-You need it to get the data
+<input type="text" value="Example" name="Data">
+Readonly-Makes it unchangeable (can't type in 
+input)
+<input type="text" value="Automatic" name="Any"
+readonly>
+Disabled-Makes it unchangeable and unclickable
+<input type="text" value="Unchangeable" name="Any"
+disabled>
+Size-Specifies how long the box is in characters
+<input type="text" value="Example" name="Any"
+size="40">
+Maxlength-Specifies how many characters you can add
+in a input
+<input type="text" value="Max 40 characters" 
+name="any" maxlength="40">
+Autocomplete-If the data is submited, then if you 
+go back to the website, it will show the data you
+sumbited if you try to enter the same text
+<input type="text" value="any" name="Test" 
+autocomplete="on">
+Novalidate-Will overrun the required input
+<input type="email" value="any" name="Test" 
+novalidate>
+Autofocus-Autofocus the input field
+<input type="text" value="Any" name="Test" autofocus>
+Form-Allows you to have 2 inputs (or more) in 
+diffrent places but the same form
+<input type="text" name="any" form="form1">
+(the form attribute selects a ID)
+Formaction-Overrides the <form action=""> and only
+works with type="submit" and type="image"
+<input type="text" value="sumbit" formaction=
+"/action_page2.php">
+Formenctype-Specifies how the form data should be 
+encoded when sumbited
+<input type="text" value="Any" name="Example" 
+formenctype="multipart/form-data">
+Formmethod-defines the http method for sending form
+data to action url and overrides the method 
+attribute of the <form> element and can only be 
+used for type="submit" and type="image"
+<input type="text" value="Any" name="Example" 
+formmethod="post">
+Formnovalidate-Overrides the novalidate attribute
+of <form> and can only be used with type="submit"
+<input type="text" name="any" value="example" 
+formnovalidate>
+Formtarget-Overrides the form attribute "target"
+and can be only used with type="submit"
+<input type="text" name="any" value="example" 
+formtarget="_blank">
+Height and width-Specify the height and width of a
+image type
+<input type="image" src="image.gif" width="10" 
+height="10">
+List-Refers to a <datalist> that contains options
+for a input (check out form elements)
+<input list="food">
+Min and max-used for number, range, date, datetime-
+local, month, time and week
+<input type="data" name="birthday" max="2020-1-1"
+min="1920-1-1">
+Multiple-allows users to enter more than one value
+and works with email and file
+<input type="file" name="code" multiple>
+Pattern-an input field where you decide how many
+characters there can be and what letters
+<input type="text" name="country_code" 
+pattern="[A-Za-z]{3}"> ([A-Za-z] means all letters
+and {3} means 3 letters only)
+Placeholder-Hints the expected value of a input 
+field and shows before the user enters a value and
+only works with text, search, url, tel, email and
+password
+<input type="text" name="fname" 
+placeholder="First name">
+Required-Specifies that a input field must be 
+filled out before submitting the form
+Step-Specifies the numbers you can add from
+(for example 3, it goes 0, 3, 6 or 0, -3, -6 and 
+more) and works with number, range, data, 
+datetime-local, month, time and week
+<input type="number" name="Steps" step="3">
+
+
+Form Elements:
+<label>:
+<form>
+<label for="email">Enter your email</label>
+<input type="email" name="email">
+</form>
+Output:
+Enter your email
+(input)
+
+<select>:
+<form>
+<select name="cars">
+<option>Volvo</option>
+<option>Audi</option>
+<option>Saab</option>
+<option>Fiat</option>
+</select>
+</form>
+Output:
+(Drop-down list with the options above)
+(You can use size attribute and multiple attribute
+to customize this)
+
+<textarea>:
+<form>
+<textarea name="message" rows="5" cols="15">
+</textarea>
+</form>
+(shows a box with 5 rows and 15 columns and you
+can type in it)
+(you can use css too)
+
+<button>:
+<button onclick="alert('This is JS')">Click Me
+</button>
+(Shows a button that says "Click Me" and when 
+clicked will display a box with "This is JS")
+
+<datalist>:
+<form>
+<input list="items" name="item">
+<datalist id="items">
+<option value="Rubix Cube">
+<option value="Fidget Spinner">
+</datalist>
+</form>
+(shows a text box and if you type "R" or "F" it
+will show either "Rubix Cube" or "Fidget Spinner"
+which you can select and submit)
+
+<output>:
+<form oninput="x.value=parseInt(a.value)+parseInt
+(b.value)">
+<label for="a">First number</label>
+<input type="number" name="a">
+<label for="b">Second number</label>
+<input type="number" name="b">
+<label for="x">Result</label>
+<output name="x" for="a b"></output>
+</form>
+(oninput means when the value is changed)
+(Output is the result of a calculation)
+(Shows a number box with "First number" and another
+number box with "Second number" and when it will
+add each box value next to the "Result" label)
+
+
+Actions:
+Form action:
+<form action="/action_page.php"
+Form target:
+<form target="_blank">
+Form method:
+
+GET shows the form data so use it for quizs or
+things that aren't sensetive data and people
+can bookmark the result but GET has a limit of 
+3000 characters
+<form action="/action_page.php" method="GET">
+
+POST hides the data and has unlimited amount of
+data (unless its so big the computer will break)
+<form action="/action_page.php" method="POST">
+
+Grouping form data with fieldset:
+<form action="/action_page.php">
+<fieldset>
+<legend>Your name</legend>
+<input type="text" name="firstname">
+</fieldset>
+</form>
+<input type="submit">
+(Shows "Your name" with a box and inside the box
+is a text box)
+
+Canvas:
+<canvas id="edit" width="200" height="100">
+</canvas>
+(to draw you need to see the JS tutorial)
+
+SVG:
+Basic:
+<svg>
+<rect/>
+</svg>
+(shows a rectange)
+Learn:
+Rectangle <rect>
+Circle <circle>
+Ellipse <ellipse>
+Line <line>
+Polyline <polyline>
+Polygon <polygon>
+Path <path>
